@@ -29,12 +29,11 @@ File Name Description (_printf.c) produces output according to a format
 
 File containing functions for specifiers _putchar.c
 
-File containing function that writes a char to stdout (f_print1.c, f_print2.c)
+File containing function that writes a char to stdout (f_print1.c)
 
-File containing functions for more specifiers (holberton.h) header file with function prototypes and struct for specifiers.
+File containing functions for more specifiers (main.h) header file with function prototypes and struct for specifiers.
 
 # About
-Created on Ubuntu 14.04 LTS
 
 Compiled with gcc 4.8.4, using flags: -Wall -Werror -Wextra and -pedantic
 
