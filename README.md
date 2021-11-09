@@ -1,15 +1,15 @@
-_printf
+# _printf
 In this project we are going to recreate the C standard library printf function as a part of the curriculum of software engineering for the low-level programming module at Holberton School.
 
-Usage
+# Usage
 To use the _printf function, assuming the above dependencies have been installed, compile all .c files in the repository and include the header holberton.h with any main function.
 
-Compilation
+# Compilation
 Our code is compiled this way:
 
 $ gcc -Wall -Werror -Wextra -pedantic *.c
 
-Format
+# Format
 %c print a single character.
 
 %d print a decimal (base 10) number.
@@ -24,7 +24,7 @@ Format
 
 %x or %X print unsigned hexadecimal (x and X) notation. The letters abcdef are used for x conversions; the let- ters ABCDEF are used for X conversions.
 
-Files
+# Files
 File Name Description (_printf.c) produces output according to a format
 
 File containing functions for specifiers _putchar.c
@@ -33,15 +33,15 @@ File containing function that writes a char to stdout (f_print1.c, f_print2.c)
 
 File containing functions for more specifiers (holberton.h) header file with function prototypes and struct for specifiers.
 
-About
+# About
 Created on Ubuntu 14.04 LTS
 
 Compiled with gcc 4.8.4, using flags: -Wall -Werror -Wextra and -pedantic
 
-Authors
-https://github.com/mking94
+# Authors
+https://github.com/mahmoud94ha
 
-https://github.com/yassinebid
 
-License
+
+# License
 This project is licensed under the holberton school License.
