@@ -41,7 +41,6 @@ i = i + 2;
 }
 else if (format[i + 1] == 'o')
 {
-len = len + print_int(tooct(va_arg(arg, int)));
 i = i + 2;
 }
 else if (format[i + 1] == 'x')
