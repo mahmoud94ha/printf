@@ -2,7 +2,7 @@
 In this project we are going to recreate the C standard library printf function as a part of the curriculum of software engineering for the low-level programming module at Holberton School.
 
 # Usage
-To use the _printf function, assuming the above dependencies have been installed, compile all .c files in the repository and include the header holberton.h with any main function.
+To use the _printf function, assuming the above dependencies have been installed, compile all .c files in the repository and include the header main.h with any main function.
 
 # Compilation
 Our code is compiled this way:
@@ -43,4 +43,4 @@ https://github.com/mahmoud94ha
 
 
 # License
-This project is licensed under the holberton school License.
+This project is licensed under the ton school License.
