@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  * _printf - print all (printf reecreation)
  * @format: format specifier
@@ -34,25 +34,7 @@ else if (format[i + 1] == 's')
 len = len + print_string(va_arg(arg, char *));
 i = i + 2;
 }
-else if (format[i + 1] == 'b')
-{
-len = len + print_int(tobin(va_arg(arg, unsigned int)));
-i = i + 2;
-}
-else if (format[i + 1] == 'o')
-{
-i = i + 2;
-}
-else if (format[i + 1] == 'x')
-{
-len = len + print_string(tohex(va_arg(arg, int)));
-i = i + 2;
-}
-else if (format[i + 1] == 'X')
-{
-len = len + print_string(toHEX(va_arg(arg, int)));
-i = i + 2;
-}
+
 else if (format[i + 1] == '%')
 {
 len = len + _putchar('%');
