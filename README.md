@@ -38,8 +38,8 @@ File containing functions for more specifiers (main.h) header file with function
 Compiled with gcc 4.8.4, using flags: -Wall -Werror -Wextra and -pedantic
 
 # Authors
-https://github.com/mahmoud94ha
-
+Mahmoud Hannani https://github.com/mahmoud94ha
+Siwar Ayari https://github.com/siwar9910
 
 
 # License
